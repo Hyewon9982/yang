@@ -1,0 +1,145 @@
+*{
+    margin: 0%;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Nanum Gothic', sans-serif;
+    font-family: 'noto Sans KR' sans-serif;
+}
+
+header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 40px;
+    padding: 1rem;
+    color: white;
+    background: #F97921;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h1 {
+    font-size: 16px;
+    font-family: 'Nanum Gothic', sans-serif;
+}
+
+span{
+    font-size: 12px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: 'Nanum Gothic', sans-serif;
+}
+
+.logo{
+    text-align: center;
+    margin-top: 100px;
+}
+
+.nav{
+    text-align: center;
+    position: sticky;
+    cursor: pointer;
+}
+.nav ul{
+    display: inline-block;
+    padding: 16px 20px;
+    color: #777777;
+    font-size: 16px;
+}
+
+.nav ul:hover{
+    font-weight: 900;
+    color: rgb(255, 255, 255);
+    background-color: #FA9A28;
+}
+
+.con-docu{
+    width: 900px;
+    font-family: 'Nanum Gothic', sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 60px;
+}
+.con-name{
+    color: #FA9A28;
+    margin-top: 60px;
+}
+.con-desc{
+    width: 500px;
+    height: 360px;
+    display: inline-block;
+    vertical-align: top;
+
+}
+.con-desc h2{
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: -.2px;
+}
+.con-desc p{
+    color: #606167;
+    font-size: 16px;
+    line-height: 1.8;
+    letter-spacing: -.1px;
+}
+.con-image{
+    display: inline-block;
+    position: relative;
+}
+.con-image img{
+    height: 280px;
+}
+
+.main-image{
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    border-radius: 10px;
+    image
+}
+
+.con-desc h3{
+    width: fit-co;
+
+}
+
+.con-desc h3{
+    width: fit-content;
+    font-size: 14px;
+    color: #FA9A28;
+    border-width: 3px;
+    border-radius: 16px;
+    border-style: solid;
+    border-color: #FA9A28;
+    text-align: right;
+    padding: 4px;
+}
+
+/* 사이트 푸터 */
+
+footer{
+	height: 30px;
+	line-height: 16px;
+}
+
+footer p{
+    text-align: center;
+    margin-top: 200px;
+    padding-top: 10px;
+    padding-bottom: 120px;
+    font-size: 10px;
+    font-weight: 500;
+    background-color: #FA9A28;
+    width: 1200px;
+}
+
