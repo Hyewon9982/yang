@@ -1,0 +1,164 @@
+*{
+    margin: 0%;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Nanum Gothic', sans-serif;
+    font-family: 'noto Sans KR' sans-serif;
+}
+
+header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 40px;
+    padding: 1rem;
+    color: white;
+    background: #F97921;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h1 {
+    font-size: 16px;
+    font-family: 'Nanum Gothic', sans-serif;
+}
+
+span{
+    font-size: 12px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: 'Nanum Gothic', sans-serif;
+}
+
+.logo{
+    text-align: center;
+    margin-top: 100px;
+}
+
+.nav{
+    text-align: center;
+    position: sticky;
+    cursor: pointer;
+}
+.nav ul{
+    display: inline-block;
+    padding: 16px 20px;
+    color: #777777;
+    font-size: 16px;
+}
+
+.nav ul:hover{
+    font-weight: 900;
+    color: rgb(255, 255, 255);
+    background-color: #FA9A28;
+}
+
+.image {
+    margin-top: 30px;
+    width: 100%;
+    background-image: url(https://i.postimg.cc/66S3rWjw/image.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.text h2{
+    color: rgb(255, 255, 255);
+}
+
+.text p{
+    color: rgb(255, 255, 255);
+}
+
+.content{
+    height: 100vh;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.text button {
+    display: block;
+    width: 120px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    background-color: rgb(255, 255, 255);
+    color: #595959;
+    border: none;
+    border-radius: 20px;
+    font-size: 16px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+.text button:hover {
+    background-color: #FA9A28;
+    color: rgb(255, 255, 255);
+}
+
+h3 {
+    font-size:24px;
+    color:#F97921;
+    margin-top:100px;
+    margin-bottom:100px;
+    text-align: center;
+}
+
+.content2 {
+    text-align:center;
+    width:225px;
+    margin-left:88px;
+    display:block;
+    color:#545454;
+    text-decoration:none;
+    float:left;
+}
+
+.content2 img{
+    border-radius: 10px;
+}
+
+.content2-list{
+    width:1200px;
+    text-align:center;
+    margin: auto;
+}
+
+
+.content2-name{
+    font-family: 'Nanum Gothic', sans-serif;
+    font-size: 16px;
+    margin-top:20px;
+    margin-bottom:100px;
+}
+
+
+/* 사이트 푸터 */
+
+footer{
+	height: 30px;
+	line-height: 16px;
+}
+
+footer p{
+    text-align: center;
+    margin-top: 700px;
+    padding-top: 10px;
+    padding-bottom: 120px;
+    font-size: 10px;
+    font-weight: 500;
+    background-color: #FA9A28;
+    width: 1000px;
+}
+
+
